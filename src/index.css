@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
 }
+/* reset  */
 :root {
   --color-primary: #000;
 }
@@ -15,6 +16,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #26272b;
+  color: #f4f4f4;
 }
 
 code {
@@ -25,6 +28,11 @@ code {
 ul {
   list-style-type: none;
 }
+h1 {
+  text-align: center;
+  margin: 1rem;
+}
 a {
+  color: #f4f4f4;
   text-decoration: none;
 }

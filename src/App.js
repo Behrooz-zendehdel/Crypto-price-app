@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import Coins from "./Components/Coins";
 import Navbar from "./Components/Navbar";
+import { Routes, Route } from "react-router-dom";
 function App() {
   const [coins, setCoins] = useState([]);
 
